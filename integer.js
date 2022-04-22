@@ -34,6 +34,31 @@
 //=============== masala 207 ===============
 
 
+// function evaluate(str) {
+
+//   let result = 0
+//   let amallar = ["+", "-"]
+//   let newStr = str.replace(/\s/g, '')
+
+//   for (let i = 0; i < newStr.length; i++) {
+
+//       if (amallar.includes(newStr[i])) {
+          
+//           if (newStr[i] == "-") {
+//               result += - +newStr[i + 1]
+//               i += 1
+//           }else{
+//               result += +newStr[i + 1]
+//               i += 1
+//           }
+//       }
+//       else{
+//           result += +newStr[i]
+//       }
+//   }
+//   return result
+// }
+// console.log(evaluate("     5  +3  -9    + 8"));
 
 
 //=============== masala 214 ===============
