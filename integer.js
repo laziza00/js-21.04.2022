@@ -90,21 +90,22 @@
 
 //=============== masala 216 ===============
 
-// let arr =[0, 2, 35, -8, -45, 7, 34, -7, 76]
-// let min = arr[0]
+let arr =[0, 2, 35, -8, -45, 7, 34, -7, 76]
 
-// function minNumber(arr) {
+function minNumber(arr) {
 
-//   for(let i=0; i<arr.length; i++) {
+  for(let i=0; i<arr.length; i++) {
+  for(let j=0; j<arr.length; j++) {
+      if(arr[0]>arr[j]) {
+          arr[0] = arr[j];
+      }
   
-//     console.log(arr[i]);
-//     if(min>arr[i]) {
-//      return min =arr[i]
-//     }
-//   }
-// }
-
-// console.log(minNumber(arr));
+    }
+   
+  }
+  return arr[0]
+}
+console.log(minNumber(arr));
 
 
 
