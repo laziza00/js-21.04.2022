@@ -74,39 +74,42 @@
 //=============== masala 215 ===============
 
 
-// let arr =[1, 2, 3,4, 19,-2, -3];
-// let arr2 =[]
-// let min =arr[0]
+// let arr =[1, 2, 3, 4, 19, -2, -3];
 
-// for(let i=0; i<arr.length; i++){
-//   if(min>arr[i+1]) {
-//     arr2.push(arr[i])
-//   }
-//   else {
-//     arr2.push(arr[i])
-//   }
+// function sortArr(arr) {
+
+//     for(let i=0; i<arr.length; i++){
+//         for(let j=0; j<arr.length; j++) {
+//             if(arr[j]>arr[j+1] ){
+//                 let a = arr[j+1]
+//                 arr[j+1] = arr[j]
+//                 arr[j] = a
+//                 console.log(a);
+//             }
+//           }
+//         }
+//     return arr;
 // }
-// console.log(arr2);
+
+// console.log(sortArr(arr));
+
 
 //=============== masala 216 ===============
 
-let arr =[0, 2, 35, -8, -45, 7, 34, -7, 76]
+// let arr =[0, 2, 35, -8, -45, 7, 34, -7, 76]
 
-function minNumber(arr) {
+// function minNumber(arr) {
 
-  for(let i=0; i<arr.length; i++) {
-  for(let j=0; j<arr.length; j++) {
-      if(arr[0]>arr[j]) {
-          arr[0] = arr[j];
-      }
-  
-    }
-   
-  }
-  return arr[0]
-}
-console.log(minNumber(arr));
-
+//   for(let i=0; i<arr.length; i++) {
+//   for(let j=0; j<arr.length; j++) {
+//       if(arr[0]>arr[j]) {
+//           arr[0] = arr[j];
+//       }
+//     }
+//   }
+//   return arr[0]
+// }
+// console.log(minNumber(arr));
 
 
 //=============== masala 217 ===============
@@ -153,7 +156,6 @@ console.log(minNumber(arr));
 //   else{
 //     return "1<=n<=18 bo'lishi kerak";
 //   }
-   
 // }
 // console.log(recursie(10));
 
@@ -167,6 +169,5 @@ console.log(minNumber(arr));
 //   else{
 //     return "1<=n<=18 bo'lishi kerak";
 //   }
-   
 // }
-// console.log(recursie(10));
+// console.log(recursie(10))
