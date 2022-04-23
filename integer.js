@@ -74,24 +74,24 @@
 //=============== masala 215 ===============
 
 
-let arr =[1, 2, 3, 4, 19, -2, -3];
+// let arr =[1, 2, 3, 4, 19, -2, -3];
 
-function sortArr(arr) {
+// function sortArr(arr) {
 
-    for(let i=0; i<arr.length; i++){
-        for(let j=0; j<arr.length; j++) {
-            if(arr[j]>arr[j+1] ){
-                let a = arr[j+1]
-                arr[j+1] = arr[j]
-                arr[j] = a
-                // console.log(a);
-            }
-          }
-        }
-    return arr;
-}
+//     for(let i=0; i<arr.length; i++){
+//         for(let j=0; j<arr.length; j++) {
+//             if(arr[j]>arr[j+1] ){
+//                 let a = arr[j+1]
+//                 arr[j+1] = arr[j]
+//                 arr[j] = a
+//                 // console.log(a);
+//             }
+//           }
+//         }
+//     return arr;
+// }
 
-console.log(sortArr(arr));
+// console.log(sortArr(arr));
 
 
 
@@ -165,13 +165,13 @@ console.log(sortArr(arr));
 
 //=============== masala 220 ===============
 
-// function recursie(n) {
+function recursie(n) {
 
-//   if(n>=1 && n<=18) {
-//     return n===1 ? 1 : n*recursie(n-1)
-//   }
-//   else{
-//     return "1<=n<=18 bo'lishi kerak";
-//   }
-// }
-// console.log(recursie(10))
+  if(n>=1 && n<=100) {
+    return n===1 ? 1 : n*recursie(n-1)
+  }
+  else{
+    return "1<=n<=18 bo'lishi kerak";
+  }
+}
+console.log(recursie(10))
