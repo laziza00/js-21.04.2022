@@ -165,13 +165,13 @@
 
 //=============== masala 220 ===============
 
-function recursie(n) {
+// function recursie(n) {
 
-  if(n>=1 && n<=100) {
-    return n===1 ? 1 : n*recursie(n-1)
-  }
-  else{
-    return "1<=n<=18 bo'lishi kerak";
-  }
-}
-console.log(recursie(10))
+//   if(n>=1 && n<=100) {
+//     return n===1 ? 1 : n*recursie(n-1)
+//   }
+//   else{
+//     return "1<=n<=18 bo'lishi kerak";
+//   }
+// }
+// console.log(recursie(10))
